@@ -58,6 +58,9 @@ body {
 .apresentacao__links__link{
     /* background-color: #22d4fd; */
     border: 2px solid #22d4fd;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
     border-radius: 8px;
     width: 378px;
     text-align: center;
@@ -65,7 +68,11 @@ body {
     /* O primeiro valor [21.5px] é vertical, o segundo [0] é horizontal */
     padding: 21.5px 0;
     text-decoration: none;
-    color: #22d4fd;
+    color: #f6f6f6;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+    
+}
+.apresentacao__links__link:hover{
+    background-color: #272727;
 }
